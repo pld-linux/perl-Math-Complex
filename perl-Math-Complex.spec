@@ -22,6 +22,9 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Test-Simple
 %endif
+# see Math/Trig.pm for version
+Provides:	perl-Math-Trig = 1.23
+Obsoletes:	perl-Math-Trig < 1.23
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
