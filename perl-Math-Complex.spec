@@ -4,7 +4,6 @@
 #
 %define		pdir	Math
 %define		pnam	Complex
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Complex - complex numbers and associated mathematical functions
 Summary(pl.UTF-8):	Math::Complex - liczby zespolone i związane z nimi funkcje matematyczne
 Name:		perl-Math-Complex
